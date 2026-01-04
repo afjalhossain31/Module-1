@@ -1,47 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Demo Web Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Demo Web Page</title>
 </head>
-<body>
-    <!--Header section-->
-   <h1>My Demo Webpage</h1>
-   <p>Welcome to my simple webpage created using only HTML.</p>
-
-   <!--Navigation Links-->
-   <h2>--Navigation</h2>
-   <ul>
-    <li><a href="#about"></a>About</a></li>
-    <li><a href="#Hobbies">My Habbies</a></li>
-    <li><a href="#contact"></a>Contact</a></li>
-   </ul>
-
-   <!--About Section-->
-   <h2>About Me </h2>
-   <p>
-    My name is Afjal Hossain.I am learing HTML to build basic web pages and understand the structure of websites.
-   </p>
-
-   <!--Hobbies Section with list -->
-   <h2>My Hobbies</h2>
-   <p>Here are some of my favorite hobbies:</p>
-   <ol>
-    <li>Coding and learning new Technologies</li>
-    <li>Reading books</li>
-    <li>Listening to music</li>
-   </ol>
-
-   <!--Image Section-->
-   <p>below is an explame image loaded form the internet :</p>
-   <img src="images/background.jpg" alt="simple placeholder image" />
+<body
+  style="
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    color: white;
     
-   <!--Contact Section-->
-   <h2>Contact</h2>
-   <p>
-    you can send me an email at <a href="mailto:example@email.com">example@email.com</a>
-   </p>
+  "
+>
+
+  <!-- Header section -->
+  <h1>My Demo Webpage</h1>
+  <p>Welcome to my simple webpage created using only HTML.</p>
+
+  <!-- Navigation Links -->
+  <h2>--Navigation</h2>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#hobbies">My Hobbies</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
+  <!-- About Section -->
+  <h2 id="about">About Me</h2>
+  <p style="text-align:left; color: rgb(242, 235, 29);">
+    <strong>My name is Afjal Hossain</strong><br><b>I am learning HTMLto build basic web pages
+    and <br>understand the structure of websites.</b>
+  </p>
+
+  <!-- Hobbies Section with list -->
+  <h2 id="hobbies">My Hobbies</h2>
+  <p>Here are some of my favorite hobbies:</p>
+  <ol>
+    <li>Coding and learning new technologies</li>
+    <li><a href="Reading Books" style="color: yellow;">Reading Books</a></li>
+    <li>Listening to music</li>
+  </ol>
+
+  <!--What i bought + lists demo-->
+  <h2>Travel Notes</h2>
+  <span><strong>What I Bought</strong></span>
+  <ol>
+    <li>Handmade souvenirs</li>
+    <li>Local snacks</li>
+    <li>Postcards</li>
+  </ol>
+
+  <span><strong>My Favorite Foods</strong></span>
+
+  <uL>
+    <li>Grilled Fish</li>
+    <li>Spicy noodles</li>
+    <li>Fresh fruits</li>
+
+  </uL>
+
+  <!--Button + div-->
+
+  <h2>Trip Highlights</h2>
+  <div>
+    <p>It was a peaceful trip with beautiful views and fresh air.</p>
+    <br />
+    <button>Read More</button>
+  </div>
+
+  <!--Song link demo-->
+  <h2>Favorite Song</h2>
+  <p>I often listen to this song m=while traveling:
+    <a href="https://www.youtube.com/watch?v=nwXAkF8OFCc&list=RDG8nlhcmDXNE&index=8" style="color: yellow;">
+    my favorite travel song 
+    </a>
+  </p>
+
+  <!-- Contact Section -->
+  <h2 id="contact">Contact</h2>
+  <p>
+    You can send me an email at
+    <a href="mailto:example@email.com">example@email.com</a>
+  </p>
+
+  <!-- Footer Section -->
+  <p style="text-align:center">&copy; 2026 My Demo Webpage</p>
 
 </body>
 </html>
